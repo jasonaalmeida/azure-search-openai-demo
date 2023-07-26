@@ -9,11 +9,17 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "What partner designations does Hitachi Solutions hold?",
+        value: "What partner designations does Hitachi Solutions hold?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    {
+        text: "How does Hitachi Solutions approach testing on D365 projects?",
+        value: "how does Hitachi Solutions approach testing on D365 projects?"
+    },
+    {
+        text: "What artefacts and deliverables do we produce as part of consensus?",
+        value: "What artefacts and deliverables do we produce as part of consensus?"
+    }
 ];
 
 interface Props {
